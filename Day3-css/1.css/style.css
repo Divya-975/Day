@@ -1,0 +1,15 @@
+
+img{
+    width: 1000;
+    height: 90;
+    size: 50cm;
+    margin: 20px;
+    border-top: 20px;
+    white-space: 50px;
+}
+button{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}

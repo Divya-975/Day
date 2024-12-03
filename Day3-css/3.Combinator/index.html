@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /*1.Descendant Combinator*/
+       /* div h1{
+            background-color: brown;
+            color: aqua;
+        }*/
+    /*2.Direct child Combinator*/
+       /* .box>h1{
+            background-color: rgb(64, 12, 218);
+            color: aqua;
+        }*/
+
+     /*Sibling Combinator*/
+        /*h1~p{
+            color: black;
+            background-color: chocolate;
+        }*/
+     /*Adjacent sibling selector*/
+        h1+p{
+            color: rgb(255, 127, 136);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!--! Sibling Example-->
+    <div class="containor">
+    <h1>i am heading</h1>
+    <p>i am paragraph</p>
+    <a href="">i am anchor</a>
+    <p>i am para 2</p>
+
+
+    <!--!child Example
+    <div class="container">
+        <h1>
+            i am h1 inside thw container
+        </h1>
+        </div>
+    <div class="box">
+        <h1>
+           i am h1 inside the box
+        </h1>-->
+    </div>
+    
+</body>
+</html>
