@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: grey;
+}
+.header__navigation--list{
+    display:flex;
+    list-style: none;
+    gap: 10px;
+}
+.header__navigation--link{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
