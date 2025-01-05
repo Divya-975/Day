@@ -24,11 +24,12 @@
 .header__navigation--links:hover{
      color: dodgerblue;
 }
+.blue{
+    color: dodgerblue;
+ }
 /* .header__navigation--links:active{
     color: crimson;
 
 } */
- #blue{
-    color: dodgerblue;
- }
+ 
 
